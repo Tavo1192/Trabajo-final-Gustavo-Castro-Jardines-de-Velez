@@ -1,0 +1,17 @@
+//nesting
+.nav-contenedor {
+    width: 100%;
+    margin: auto;
+    padding: 2px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color:$secondColor;
+    font-size: $sub2Md;
+    .logo   {
+        width: 250px;
+    }
+}
+
+

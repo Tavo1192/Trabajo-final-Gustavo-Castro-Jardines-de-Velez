@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//fonts
+$firstFont: 'Roboto', sans-serif;
+$monseFont: 'Montserrat', sans-serif;
+
+//text sizing
+$sub1Sm: .8em;
+$sub2Md: 1.2em;
+$subInter:1.5em;
+$sub3Lg: 1.8em;
+$sub4Xl: 2.2em;
+
+//font - weigth
+$bold: 400;
+$regular: 300;
+$ligth: 200;

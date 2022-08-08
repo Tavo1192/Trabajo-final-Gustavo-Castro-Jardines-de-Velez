@@ -1,0 +1,11 @@
+.carrusel {
+  margin-top: 5rem;
+}
+.carrusel .carousel-inner .carousel-item img {
+  height: 55vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  padding: 10px 0;
+}/*# sourceMappingURL=casas.css.map */

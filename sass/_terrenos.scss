@@ -1,0 +1,65 @@
+
+.container-cardTierra{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: $letterColor;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:$blanco;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+	img{
+		width: 100%;
+		height: 210px;
+		.contenido-card{
+			padding: 15px;
+			text-align: center;
+			h3{
+				margin-bottom: 15px;
+				color: $letterColor;
+				p{
+					line-height: 1.8;
+					color: $letterColor2;
+					font-size: 14px;
+					margin-bottom: 5px;
+					a{
+						display: inline-block;
+						padding: 10px;
+						margin-top: 10px;
+						text-decoration: none;
+						color: $alternativo2;
+						border: 1px solid $alternativo2;
+						border-radius: 4px;
+						transition: all 400ms ease;
+						margin-bottom: 5px;
+					}
+				}
+			}
+			
+		}
+	}
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card .contenido-card a:hover{
+	background: $alternativo2;
+	color: $blanco;
+}
+
