@@ -44,11 +44,12 @@ h5 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  background-color: #969998;
+  background: rgb(122, 138, 142);
+  background: linear-gradient(90deg, rgb(122, 138, 142) 1%, rgb(149, 214, 238) 100%);
   font-size: 1.2em;
 }
 .nav-contenedor .logo {
-  width: 250px;
+  width: 200px;
 }
 
 .carrusel {

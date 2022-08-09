@@ -7,10 +7,13 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    background-color:$secondColor;
+    background: rgb(122,138,142);
+    background: linear-gradient(90deg, rgba(122,138,142,1) 1%, rgba(149,214,238,1) 100%);
     font-size: $sub2Md;
     .logo   {
-        width: 250px;
+        width: 200px;
+
+        
     }
 }
 
