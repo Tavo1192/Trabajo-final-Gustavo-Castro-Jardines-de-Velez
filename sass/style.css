@@ -331,6 +331,7 @@ h5 {
 .container-cardCasas .title-cards .card img .contenido-card h3 {
   margin-bottom: 15px;
   color: #7a7a7a;
+  text-align: center;
 }
 .container-cardCasas .title-cards .card img .contenido-card h3 p {
   line-height: 1.8;
@@ -532,7 +533,7 @@ h5 {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 320px) and (max-width: 1054px) {
   .container-cardCasas {
     flex-wrap: wrap;
   }
@@ -544,7 +545,7 @@ h5 {
        object-fit: cover;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 320px) and (max-width: 1037px) {
   .container-cardTierra {
     flex-wrap: wrap;
   }
@@ -556,7 +557,7 @@ h5 {
        object-fit: cover;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 1037px) {
   .container-cardDptos {
     flex-wrap: wrap;
   }
