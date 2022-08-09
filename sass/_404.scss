@@ -8,7 +8,7 @@ $md: 2.5rem;
 $lg: 4rem;
 
 * {
-  box-sizing: 0;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-edge.png"),
