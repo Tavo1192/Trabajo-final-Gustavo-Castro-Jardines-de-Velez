@@ -321,6 +321,8 @@ h5 {
 .container-cardCasas .title-cards .card img {
   width: 100%;
   height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container-cardCasas .title-cards .card img .contenido-card {
   padding: 15px;
@@ -530,7 +532,7 @@ h5 {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
   .container-cardCasas {
     flex-wrap: wrap;
   }
@@ -542,7 +544,7 @@ h5 {
        object-fit: cover;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
   .container-cardTierra {
     flex-wrap: wrap;
   }
